@@ -1,9 +1,25 @@
 .App {
-  text-align: center;
+  text-align: right;
+  margin: 0;
 }
 
 .App .navbar{
-  background-color:antiquewhite;
+  margin: 0;
+  height: 25%;
+  background-color:wheat;
+  position:sticky;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.App .navbar .navbar-item{
+  height: 15%;
+  text-decoration: none;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2%;
 }
 
 

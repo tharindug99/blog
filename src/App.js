@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="navbar">
-        <h1>
-          Hello
-        </h1>
+        <a href="/#" class="navbar-item">Home</a>
+        <a href="/#" class="navbar-item">About Us</a>
+        <a href="/#" class="navbar-item">Sign In</a>
       </div>
+      
     </div>
   );
 }
